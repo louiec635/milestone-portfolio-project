@@ -1,0 +1,223 @@
+/***Base Styles***/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1f202b;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  margin: 0 auto;
+}
+
+
+/***Grid***/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***Header***/
+header {
+  /***height: 10px;**/
+  width: 1350px;
+  overflow: auto;
+}
+
+.name {
+  float: left;
+  padding-left: 20px;
+}
+h1{
+  font-size: 24px;
+  font-weight: normal;
+}
+
+nav {
+  float: right;
+  padding-right: 30px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  padding-left: 35px;
+}
+
+#top-section {
+  width: 1350px;
+  height: 800px;
+  background-image: url('../img/hero-background.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#top-section h2 {
+  margin: 0;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 72px;
+  font-weight: 600;
+  padding: 335px 0 0 75px;
+}
+
+#top-section span {
+  color: #fa0075;
+}
+
+/***Section Headings***/
+h3 {
+  color: #fa0075;
+  font-size: 36px;
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 600;
+  text-align: center;
+}
+
+/***Portfolio***/
+#portfolio {
+  height: 1550px;
+}
+
+#portfolio .half-width{
+  width: 550px;
+  height: 350px;
+  margin: 60px 25px;
+}
+
+#portfolio h4 {
+  font-size: 24px;
+  margin: 0;
+}
+
+#portfolio span {
+  font-weight: normal;
+}
+
+#portfolio p {
+  font-size: 24px;
+  line-height: 1.4;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+#portfolio img {
+  width: 550px;
+  height: 350px;
+  border: 1px solid #b7b7b7;
+}
+
+#jubilee {
+  text-align: right;
+}
+
+/***Work***/
+#work {
+  width: 1350px;
+  height: 550px;
+  background-image: url('../img/work-background.png');
+  background-size: cover;
+}
+
+#work .half-width {
+  color: #1f202b;
+  height: 400px;
+  margin-left: 25px;
+}
+
+#skills {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#work p {
+  font-size: 24px;
+  text-align: left;
+  line-height: 1.4;
+}
+
+/***Contact***/
+
+.bold-me {
+  font-weight: bold;
+}
+#contact {
+  height: 400px;
+  font-size: 24px;
+}
+
+#contact .third-width{
+  text-align: center;
+  padding-top: 50px;
+}
+
+#contact ul {
+  margin: 0;
+  padding: 0;
+}
+
+#contact ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+#contact ul li a {
+  padding-right: 30px;
+  text-decoration: none;
+}
+
+#mail {
+  color: #ffffff;
+}
+
+/***Copyright***/
+footer {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}
+
+/***About***/
+#about .full-width {
+padding: 80px 0;
+}
+
+#about {
+  background-image: url('../img/about-me.png');
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+#about h3 {
+  font-weight: bold;
+}
+
+#about p {
+font-size: 21px;
+font-weight: bold;
+color: #ffffff;
+line-height: 40px;
+padding-left: 50px;
+padding-right: 50px;
+}
